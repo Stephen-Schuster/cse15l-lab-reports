@@ -17,3 +17,11 @@ Next open the command line. On windows, you do this by clicking the start icon o
 Next, make sure your remote connection is working properly by testing out standard commands on the remote machine, maybe some `ls`s and `cd`s and `echo`s. This is what I did:
 
 ![Image](tryingCommandsScreenshot.png)
+
+## Step 4: Moving files between local and remote machines with scp
+
+It is important to be able to move files from a local location to a remote machine, which is where the `scp` command comes in. WhereAmI.java is a script that prints information about the file path and system that the file is being run on, so we'll use it to test `scp`. The syntax for the command is `scp` then the name of the file to be moved then the address followed immediately by `:~/`. It should look like this:
+
+![Image](scpScreenshot1.png)
+
+![Image](scpScreenshot2.png)
