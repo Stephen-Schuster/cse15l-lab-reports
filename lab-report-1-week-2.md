@@ -25,3 +25,14 @@ It is important to be able to move files from a local location to a remote machi
 ![Image](scpScreenshot1.png)
 
 ![Image](scpScreenshot2.png)
+
+
+## Step 5: SSH keys
+
+Now, typing in your password every time you want to connect to a remote machine or move a file to a remote machine might be a pain, especially if you have to do it often, so we can avoid that with SSH keys. Follow the following steps to set them up:
+
+![Image](sshKeysScreenshot1.png)
+
+![Image](sshKeysScreenshot2.png)
+
+![Image](sshKeysScreenshot3.png)
