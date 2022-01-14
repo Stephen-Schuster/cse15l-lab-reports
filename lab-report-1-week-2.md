@@ -12,3 +12,8 @@ Next open the command line. On windows, you do this by clicking the start icon o
 
 ![Image](remoteConnectScreenshot.png)
 
+## Step 3: Try using commands remotely!
+
+Next, make sure your remote connection is working properly by testing out standard commands on the remote machine, maybe some `ls`s and `cd`s and `echo`s. This is what I did:
+
+![Image](tryingCommandsScreenshot.png)
