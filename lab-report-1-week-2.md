@@ -26,7 +26,6 @@ It is important to be able to move files from a local location to a remote machi
 
 ![Image](scpScreenshot2.png)
 
-
 ## Step 5: SSH keys
 
 Now, typing in your password every time you want to connect to a remote machine or move a file to a remote machine might be a pain, especially if you have to do it often, so we can avoid that with SSH keys. Follow the following steps to set them up:
@@ -36,3 +35,9 @@ Now, typing in your password every time you want to connect to a remote machine 
 ![Image](sshKeysScreenshot2.png)
 
 ![Image](sshKeysScreenshot3.png)
+
+## Step 6: Remote Running Optimization
+
+sshing into the remote machine, running a single command then logging out might be too much of a hassle for one or two commands. So, you can add your command you want to run by adding it on to your ssh command and it will run it on the remote machine. You can run more than one command in one line by separating them with semicolons
+
+![Image](remoteRunningOptimizationScreenshot.png)
