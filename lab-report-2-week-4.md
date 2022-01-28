@@ -16,7 +16,7 @@ https://github.com/Stephen-Schuster/markdown-parse/blob/main/InBetween.md
 
 ![Image](failure2.png)
 
-The bug was that the code did not check to make sure that there was no space between the `]` and `(`. The symptom of this was that it would count things as links if there was stuff between a set of brackets and a `(`. To combat this we checked to make sure that the character richt after the `]` was a `(` before we added each link.
+The bug was that the code did not check to make sure that there was no space between the `]` and `(`. The symptom of this was that it would count things as links if there was stuff between a set of brackets and a `(`, which it shouldn't. To combat this we checked to make sure that the character richt after the `]` was a `(` before we added each link.
 
 # Code Change 3
 
