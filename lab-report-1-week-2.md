@@ -45,3 +45,12 @@ Now, typing in your password every time you want to connect to a remote machine 
 You can run more than one command in one line by separating them with semicolons. Here is an instance of me doing that. First I `ls` all the files in the remote machines current directory, then I print what is currently in the `newFile.txt` file, then I add a new line to that file and print its contents again, all in 1 line
 
 ![Image](remoteRunningScreenshot2.png)
+
+Let's say I copied `WhereAmI.java` to the remote machine, compiled and ran it remotely with `ssh cs15lwi22ajb@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"` and made edits to the file *locally*. How many keystrokes will it take to copy those edits to `WhereAmI.java` on the server and run it with those changes? You only need 7 keystrokes:
+1) Click on the terminal to bring it back into focus
+2+3) Use up arrow twice to get back to the `scp WhereAmI.java cs15lwi22ajb@ieng6.ucsd.edu:~/` command
+4) Hit enter to run it
+5+6) Use up arrow twice to get back to the `ssh cs15lwi22ajb@ieng6.ucsd.edu "javac WhereAmI.java;java WhereAmI"` command
+7) Hit enter to run it
+
+And that's it. Just 7 keystrokes to copy, compile and run local changes on a remote machine.
