@@ -4,7 +4,7 @@
 
 ![Image](codeChangeScreenshot.png)
 
-[failure-inducing input](https://github.com/Stephen-Schuster/markdown-parse/blob/main/Image.md)
+[failure-inducing input](https://github.com/Stephen-Schuster/markdown-parse/blob/main/Image.md) ([raw](https://raw.githubusercontent.com/Stephen-Schuster/markdown-parse/main/Image.md))
 
 ![Image](failure.png)
 
@@ -14,7 +14,7 @@ The bug was that the code made no attempt to distinguish links from images becau
 
 ![Image](codeChangeScreenshot-2.png)
 
-[failure-inducing input](https://github.com/Stephen-Schuster/markdown-parse/blob/main/InBetween.md)
+[failure-inducing input](https://github.com/Stephen-Schuster/markdown-parse/blob/main/InBetween.md) ([raw](https://raw.githubusercontent.com/Stephen-Schuster/markdown-parse/main/InBetween.md))
 
 ![Image](failure2.png)
 
@@ -25,7 +25,7 @@ The bug was that the code did not check to make sure that there was no space bet
 ![Image](codeChangeScreenshot-3.png)
 Note: There's a lot of formatting changes in this commit, but the important part is lines 19, 20 and 21
 
-[failure-inducing input](https://github.com/Stephen-Schuster/markdown-parse/blob/main/InfiniteLoop.md)
+[failure-inducing input](https://github.com/Stephen-Schuster/markdown-parse/blob/main/InfiniteLoop.md) ([raw](https://raw.githubusercontent.com/Stephen-Schuster/markdown-parse/main/InfiniteLoop.md))
 
 ![Image](failure3.png)
 
