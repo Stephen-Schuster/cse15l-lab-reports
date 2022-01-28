@@ -56,3 +56,5 @@ Let's say I copied `WhereAmI.java` to the remote machine, compiled and ran it re
 7) Hit enter to run it
 
 And that's it. Just 7 keystrokes to copy, compile and run local changes on a remote machine.
+
+![Image](remoteRunningScreenshot3.png)
