@@ -1,6 +1,6 @@
 # Code Change 1
 
-![Image](codeChangeScreenshot1.png)
+![Image](codeChangeScreenshot.png)
 
 https://github.com/Stephen-Schuster/markdown-parse/blob/main/Image.md
 
