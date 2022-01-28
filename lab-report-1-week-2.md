@@ -38,6 +38,10 @@ Now, typing in your password every time you want to connect to a remote machine 
 
 ## Step 6: Remote Running Optimization
 
-`ssh`ing into the remote machine, running a single command then logging out might be too much of a hassle for one or two commands. So, you can add your command you want to run by adding it on to your `ssh` command and it will run it on the remote machine. You can run more than one command in one line by separating them with semicolons
+`ssh`ing into the remote machine, running a single command then logging out might be too much of a hassle for one or two commands. So, you can add your command you want to run by adding it on to your `ssh` command and it will run it on the remote machine. 
 
 ![Image](remoteRunningOptimizationScreenshot.png)
+
+You can run more than one command in one line by separating them with semicolons. Here is an instance of me doing that. First I `ls` all the files in the remote machines current directory, then I print what is currently in the `newFile.txt` file, then I add a new line to that file and print its contents again, all in 1 line
+
+![Image](remoteRunningScreenshot2.png)
