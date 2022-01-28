@@ -10,7 +10,7 @@ The bug was that the code made no attempt to distinguish links from images becau
 
 # Code Change 2
 
-![Image](codeChangeScreenshot2.png)
+![Image](codeChangeScreenshot-2.png)
 
 https://github.com/Stephen-Schuster/markdown-parse/blob/main/InBetween.md
 
