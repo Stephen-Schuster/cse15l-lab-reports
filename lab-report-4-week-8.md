@@ -6,7 +6,7 @@
 
 [Image1](lr4img1.png) 
 
-Links: `%60google.com`, `google.com`, `ucsd.edu`
+Links: ```google.com``, `google.com`, `ucsd.edu`
 
 ## Snippet 2:
 
