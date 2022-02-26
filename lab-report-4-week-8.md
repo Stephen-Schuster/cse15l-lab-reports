@@ -30,15 +30,15 @@ Here are the tests I added for the implementation we reviewed:
 
 Here are the JUnit Tests for being run for our implementation: 
 
-![Image0](lr4img0.png)
+![Image6](lr4img6.png)
 
 Here are the JUnit Tests for being run for the implementation we reviewed: 
 
-![Image6](lr4img6.png)
+![Image0](lr4img0.png)
 
 ## Snippet 1 fix
 
-We could fix it by adding a while loop at the beginning of the `while (currentIndex < markdown.length())` loop that checks if there is a `` ` `` before the next `[` and updating `currentIndex` to after the closing backtick until there are not backticks between `currentIndex` and the next `[`. Then we do the same for `]` after we find the `[`.
+We could fix it by adding a while loop at the beginning of the `while (currentIndex < markdown.length())` loop that checks if there is a `` ` `` before the next `[` and updating `currentIndex` to after the closing backtick until there are no backticks between `currentIndex` and the next `[`. Then we do the same for `]` after we find the `[`.
 
 ## Snippet 2 fix
 
