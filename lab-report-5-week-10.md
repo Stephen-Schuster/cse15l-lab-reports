@@ -22,3 +22,4 @@ The difference on line 212 was for test file `194.md` which has these contents:
 
 ![5](lr5img5.png)
 
+[foo](*youtube.com*)
