@@ -1,1 +1,1 @@
-[blah]:https://youtube.com `title`
+[blah\]]:https://youtube.com `title`
