@@ -10,7 +10,7 @@ Then, I ran the bash script, redirecting the output to a file called `output.txt
 
 ![1](lr5img1.png)
 
-Finally, I ran diff on the 2 output files. I looked at the line numbers being compared and went into the output files to see which tests gave different results
+Finally, I ran `diff` on the 2 output files. I looked at the line numbers being compared and went into the output files to see which tests gave different results
 
 ![2](lr5img2.png)
 ![3](lr5img3.png)
