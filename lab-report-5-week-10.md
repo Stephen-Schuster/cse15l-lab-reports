@@ -1,6 +1,8 @@
-# [Repository Link](https://github.com/Stephen-Schuster/markdown-parse)
+# CSE 15L Lab Report 5
 
-# Finding test cases with different results
+## [Repository Link](https://github.com/Stephen-Schuster/markdown-parse)
+
+## Finding test cases with different results
 
 First, I modified the bash script to print the name of the file before printing the output
 
@@ -16,7 +18,7 @@ Finally, I ran `diff` on the 2 output files. I looked at the line numbers being 
 ![3](lr5img3.png)
 ![4](lr5img4.png)
 
-# Test difference 1: 577
+## Test difference 1: 577
 
 One test case with different results was `577.md`, which has the following contents: 
 
