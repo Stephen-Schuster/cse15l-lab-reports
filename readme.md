@@ -127,7 +127,7 @@ We could fix it by not ending the link until *ALL* `(` have a corresponding `)`.
 
 First we need to call `.trim()` on the link before we check if we should add it. Then when we check to see if we can add the link, we need to only add the link if there is no white space in it. If there is whitespace, set `currentIndex` to the index of that whitespace
 
-# CSE 15L Lab Report 5 Week 10
+# Lab Report 5 Week 10
 
 ## [Repository Link](https://github.com/Stephen-Schuster/markdown-parse)
 
